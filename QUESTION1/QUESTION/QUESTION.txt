@@ -1,0 +1,7 @@
+QUESTION:Problem Statement
+Write code to position 5 equal-sized (50 X 50px) boxes A, B, C, D, and E as follows.
+1) box A 200px from the left, and 200px from the top of the viewportH
+2) box B -30px left, and -30px above from the center of box AH
+3) box B -30px right, and -30px above from the center of box AH
+4) box B -30px left, and -30px below from the center of box AH
+5) box B -30px right, and -30px below from the center of box A.

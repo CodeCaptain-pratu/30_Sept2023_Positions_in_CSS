@@ -1,0 +1,14 @@
+QUESTION:Explain the difference between Absolute and Relative positioning.
+ANSWER:
+1) Position Relative :
+a) Relative positioning is a positioning method where an element is positioned relative to its normal position.
+b) Remains in normal flow.
+c) Does not affect sibling elements.
+d) Commonly used for fine-tune element positioning.	
+
+2) Position Absolute :
+a) Absolute positioning is a positioning method where an element is positioned relative to its nearest positioned ancestor.
+b) Removed from normal flow.
+c) Can overlap siblings or be overlapped.
+d) Precise placement of floating elements.
+

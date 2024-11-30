@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#box{
+    width:100px;
+    height:100px;
+    position: absolute;
+}
+.box1{
+    /* This box is displyed in front of box2(blue box) */
+    background-color: green ;
+    top:100px;
+    left:100px;
+    z-index: 1;
+    /* Higher the z-index value the element will displayed in front of other elements   */
+}
+.box2{
+    /* This box is behind the green box because z-index of box1 >z-index of box2 */
+    background-color:blue;
+    top:120px;
+    left:120px;
+    z-index: -1;
+}
+/* Positive integers place the element in front of other elements. */
+/* Negative integers place the element behind other elements. */
